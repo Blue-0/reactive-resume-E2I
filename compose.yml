@@ -85,6 +85,10 @@ services:
     networks:
       - data_network
       - storage_network
+    env_file:
+      - path: .env.example
+      - path: .env
+      required: false
     ports:
       - "3059:3059"
     volumes:
