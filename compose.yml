@@ -86,7 +86,7 @@ services:
       - data_network
       - storage_network
     ports:
-      - "3000:3000"
+      - "3050:3050"
     env_file:
       - path: .env.example
         required: false
