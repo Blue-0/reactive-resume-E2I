@@ -88,7 +88,7 @@ services:
     ports:
       - "3059:3059"
     env_file:
-      - path: .env.example
+      - path: .env
         required: false
     volumes:
       - ./data:/app/data
